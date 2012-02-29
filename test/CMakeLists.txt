@@ -15,6 +15,10 @@ COMPILE_FLAGS -DLIBFOO_STATIC_DEFINE
 )
 
 add_executable(test1 test1.cpp foo.cpp)
+set_target_properties(test1 PROPERTIES
+COMPILE_FLAGS -DLIBFOO_STATIC_DEFINE
+)
+
 
 add_executable(test1_static test1.cpp)
 set_target_properties(test1_static PROPERTIES
