@@ -7,4 +7,5 @@ include_directories(${instantiate_SOURCE_DIR})
 find_package(Boost REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
 
+enable_testing()
 add_subdirectory(test)
