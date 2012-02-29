@@ -1,5 +1,5 @@
 #include <boost/detail/lightweight_test.hpp>
-#include "lib.hpp"
+#include "foo.hpp"
 
 int main(int argc, char* argv[])
 {
